@@ -1,0 +1,74 @@
+body {
+	background-color: #b3ccff;
+}
+
+.panel-heading {
+	padding-bottom: 5px;
+	color: royalblue;
+	text-decoration: underline;
+}
+.panel-heading-contact {
+	padding-bottom: 5px;
+	color: white;
+	text-decoration: underline;
+}
+
+.main-container {
+	margin-top:50px;
+	padding: 10px;
+	
+}
+
+.general-info-container{
+	padding:0px;
+	background-color:white;
+	border-radius: 15px;
+	box-shadow: 1px 1px 20px blue;
+}
+
+.contact-container{
+	background-color:#2e2eb8;
+	border:0px;
+	height:100%;
+	border-radius: 0px 15px 15px 0px;
+}
+.input-field{
+	background-color: #2e2eb8;
+    border: none;
+    border-radius:0px;
+    border-bottom: 1.5px solid white;
+    color:white;
+}
+.input-field::placeholder{
+	color:#bfbfbf;
+}
+
+.input-field-general-info{
+    border: none;
+    border-radius:0px;
+    border-bottom: 1.5px solid gray;
+}
+.submit{
+	height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.indent{
+	text-indent: 5%
+}
+.message{
+	background: lightgray;
+    margin-left: 8%;
+    padding: 2%;
+}
+.error {
+	color: #ff0000;
+	font-style: italic;
+	font-weight: bold;
+}
